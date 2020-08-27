@@ -61,14 +61,22 @@ public class RandomNation {
     
     // requesting JVM for running Garbage Collector 
     Runtime.getRuntime().gc(); 
-    
   }
   
   private static String pickNation( )
   {
+    //lists strings
     List<String> strList = Arrays.asList(nationList);
+    
+    
+    //shuffle list
     Collections.shuffle(strList);
+    
+    
+    //random picker
     int rnd = new Random().nextInt(nationList.length);
+    
+    
     return nationList[rnd];
   }
 }

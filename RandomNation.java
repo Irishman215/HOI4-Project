@@ -37,7 +37,7 @@ public class RandomNation {
   };
   
   public static void main(String[] args) {
-    
+     
     Object[] options1 = {"New country",
       "Quit"};
     
