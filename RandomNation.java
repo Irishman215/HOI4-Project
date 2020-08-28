@@ -2,7 +2,7 @@ import java.util.*;
 import javax.swing.*;
 
 /*
- *This is to randomly seclect a Nation for HOI4 
+ *This is to randomly seclect a Nation for HOI4 game 
  * */
 
 public class RandomNation {
